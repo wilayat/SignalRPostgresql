@@ -8,18 +8,24 @@ When changes (insert/delete/update) are made in a PostgreSQL database table, the
 # Npgsql
 The Npgsql NET data provider for PostgreSQL is not included in this repo.
 To install <b>Npgsql</b>, run the following command in the Package Manager Console: Install-Package Npgsql
+#DataBase Server For Test
+
+server name: 	rogue.db.elephantsql.com
+database: ussywrsn
+user : ussywrsn
+password: uLOFMZweaJ2NE-CFVSAl-wEZWpz7iuvc
 
 # Database Objects
 CREATE TABLE tickets</br>
 (</br>
-    TICKETID serial primary key</br>
+    TICKETID serial primary key,</br>
     CREATED date NOT NULL DEFAULT CURRENT_DATE,</br>
     DATEASSIGNED date,</br>
     TITLE varchar(50),</br>
     DESCRIPTION text,</br>
     PRIORITY varchar(20),</br>
     ASSIGNEDTO varchar(100),</br>
-    TICKETSTATUS character varchar(20)</br>
+    TICKETSTATUS varchar(20)</br>
 )</br>
 
  CREATE OR REPLACE FUNCTION ticketf() RETURNS TRIGGER AS $$</br>
