@@ -1,4 +1,4 @@
-# SignalR-Postgresql
+# SignalR-Postgresql C#
 Real time push notification using SignalR  and PostgreSQL
 
 An implementation of real time notification using SignalR and the PostgreSQL listen/notify feature.
