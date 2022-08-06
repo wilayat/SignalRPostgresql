@@ -10,10 +10,10 @@ The Npgsql NET data provider for PostgreSQL is not included in this repo.
 To install <b>Npgsql</b>, run the following command in the Package Manager Console: Install-Package Npgsql
 
 # DataBase Server For Test
-server name: 	rogue.db.elephantsql.com
-database: ussywrsn
-user : ussywrsn
-password: uLOFMZweaJ2NE-CFVSAl-wEZWpz7iuvc
+server name: 	rogue.db.elephantsql.com </br>
+database: ussywrsn </br>
+user : ussywrsn </br>
+password: uLOFMZweaJ2NE-CFVSAl-wEZWpz7iuvc </br>
 
 # Database Objects
 CREATE TABLE tickets</br>
