@@ -8,8 +8,8 @@ When changes (insert/delete/update) are made in a PostgreSQL database table, the
 # Npgsql
 The Npgsql NET data provider for PostgreSQL is not included in this repo.
 To install <b>Npgsql</b>, run the following command in the Package Manager Console: Install-Package Npgsql
-#DataBase Server For Test
 
+# DataBase Server For Test
 server name: 	rogue.db.elephantsql.com
 database: ussywrsn
 user : ussywrsn
